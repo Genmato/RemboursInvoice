@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Genmato_RemboursInvoice>
+            <version>1.0.0</version>
+        </Genmato_RemboursInvoice>
+    </modules>
+
+    <global>
+        <helpers>
+            <genmato_remboursinvoice>
+                <class>Genmato_RemboursInvoice_Helper</class>
+            </genmato_remboursinvoice>
+        </helpers>
+
+        <models>
+            <genmato_remboursinvoice>
+                <class>Genmato_RemboursInvoice_Model</class>
+            </genmato_remboursinvoice>
+        </models>
+    </global>
+
+    <default>
+        <payment>
+            <invoice>
+                <active>0</active>
+                <model>genmato_remboursinvoice/method_invoice</model>
+                <order_status>processing</order_status>
+                <title>Invoice payment</title>
+                <allowspecific>0</allowspecific>
+            </invoice>
+            <rembours>
+                <active>0</active>
+                <model>genmato_remboursinvoice/method_rembours</model>
+                <order_status>processing</order_status>
+                <title>Rembours</title>
+                <allowspecific>0</allowspecific>
+            </rembours>
+        </payment>
+    </default>
+</config>

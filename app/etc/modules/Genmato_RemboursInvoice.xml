@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Genmato_RemboursInvoice>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Genmato_Payment/>
+                <Genmato_Core/>
+            </depends>
+        </Genmato_RemboursInvoice>
+    </modules>
+</config>
