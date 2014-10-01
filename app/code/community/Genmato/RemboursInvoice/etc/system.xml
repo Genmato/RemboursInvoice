@@ -181,6 +181,15 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </allow_group>
+                        <allow_shipping_method translate="label">
+                            <label>Allowed for Shipping Method</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <source_model>adminhtml/system_config_source_shipping_allmethods</source_model>
+                            <sort_order>26</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </allow_shipping_method>
                         <min_order_amount translate="label">
                             <label>Minimum order amount</label>
                             <frontend_type>text</frontend_type>
