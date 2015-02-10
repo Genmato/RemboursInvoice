@@ -2,11 +2,16 @@
 <config>
     <modules>
         <Genmato_RemboursInvoice>
-            <version>14.274.1</version>
+            <version>15.40.1</version>
         </Genmato_RemboursInvoice>
     </modules>
 
     <global>
+        <blocks>
+            <genmato_remboursinvoice>
+                <class>Genmato_RemboursInvoice_Block</class>
+            </genmato_remboursinvoice>
+        </blocks>
         <helpers>
             <genmato_remboursinvoice>
                 <class>Genmato_RemboursInvoice_Helper</class>
