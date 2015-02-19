@@ -65,6 +65,7 @@
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
+                            <can_be_empty>1</can_be_empty>
                         </allow_group>
                         <allow_shipping_method translate="label">
                             <label>Allowed for Shipping Method</label>
@@ -74,6 +75,7 @@
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
+                            <can_be_empty>1</can_be_empty>
                         </allow_shipping_method>
                         <min_order_amount translate="label">
                             <label>Minimum order amount</label>
@@ -198,6 +200,7 @@
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
+                            <can_be_empty>1</can_be_empty>
                         </allow_group>
                         <allow_shipping_method translate="label">
                             <label>Allowed for Shipping Method</label>
@@ -207,6 +210,7 @@
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
+                            <can_be_empty>1</can_be_empty>
                         </allow_shipping_method>
                         <min_order_amount translate="label">
                             <label>Minimum order amount</label>
