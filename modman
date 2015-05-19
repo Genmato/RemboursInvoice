@@ -1,0 +1,4 @@
+app/etc/modules/Genmato_RemboursInvoice.xml app/etc/modules/Genmato_RemboursInvoice.xml
+app/code/community/Genmato/RemboursInvoice/ app/code/community/Genmato/RemboursInvoice/
+app/design/adminhtml/default/default/template/genmato/invoice/ app/design/adminhtml/default/default/template/genmato/invoice/
+frontend/base/default/template/genmato/invoice/ frontend/base/default/template/genmato/invoice/
