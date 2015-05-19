@@ -1,6 +1,9 @@
 admin/dashboard
 admin/sales
 admin/sales/order
+admin/sales/order/actions/view
 admin/sales/order/actions/invoice
 admin/sales/invoice
+admin/system
+admin/system/config
 admin/system/config/payment
