@@ -248,7 +248,7 @@
                         </invoice_status>
                         <allowspecific translate="label">
                             <label>Payment from Applicable Countries</label>
-                            <frontend_type>allowspecific</frontend_type>
+                            <frontend_type>select</frontend_type>
                             <sort_order>50</sort_order>
                             <source_model>adminhtml/system_config_source_payment_allspecificcountries</source_model>
                             <show_in_default>1</show_in_default>
