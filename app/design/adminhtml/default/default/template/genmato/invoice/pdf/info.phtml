@@ -1,0 +1,14 @@
+<?php
+/**
+ * @category    Genmato
+ * @package     Genmato_RemboursInvoice
+ * @copyright   Copyright (c) 2015 Genmato BV (https://genmato.com)
+ */
+?>
+    <p><?php echo $this->escapeHtml($this->getMethod()->getTitle()) ?></p>
+<?php if ($this->showInputForm()): ?>
+    <p><?php echo Mage::helper('payment')->__(
+            'Purchase Order Number: %s',
+            $this->escapeHtml($this->getInfo()->getPoNumber())
+        ) ?></p>
+<?php endif; ?>
